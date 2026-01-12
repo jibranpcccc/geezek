@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Geezek - Software House</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        "navy": "#1B365D",
+                        "navy-dark": "#0F2544",
+                        "teal-accent": "#14B8A6", 
+                        "teal-soft": "#CCFBF1",
+                        "surface-light": "#F3F4F6",
+                        "surface-white": "#FFFFFF",
+                        "text-main": "#334155",
+                        "text-heading": "#1e293b",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "full": "9999px"},
+                    boxShadow: {
+                        'soft': '0 4px 20px -2px rgba(27, 54, 93, 0.05)',
+                        'card': '0 2px 8px -1px rgba(0, 0, 0, 0.05)',
+                    }
+                },
+            },
+        }
+    </script>
+<style>.hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        body {
+            min-height: max(884px, 100dvh);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-white font-display text-text-main overflow-x-hidden antialiased pb-28">
+<header class="fixed top-0 left-0 right-0 z-50 glass-nav border-b border-gray-100">
+<div class="flex items-center justify-between px-5 h-16 max-w-md mx-auto w-full">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-navy" style="font-size: 28px;">code_blocks</span>
+<h1 class="text-navy text-xl font-extrabold tracking-tight">Geezek</h1>
+</div>
+<button class="flex items-center justify-center rounded-full border border-gray-200 hover:border-navy/30 bg-gray-50 hover:bg-white w-10 h-10 transition-all shadow-sm">
+<span class="material-symbols-outlined text-navy text-xl">chat_bubble</span>
+</button>
+</div>
+</header>
+<main class="relative w-full max-w-md mx-auto pt-16 flex flex-col gap-10">
+<section class="relative px-5 pt-8 pb-4 overflow-hidden">
+<div class="absolute top-[-50px] right-[-50px] w-80 h-80 bg-teal-accent/10 rounded-full blur-[80px] pointer-events-none"></div>
+<div class="absolute top-[20%] left-[-20%] w-64 h-64 bg-navy/5 rounded-full blur-[80px] pointer-events-none"></div>
+<div class="relative z-10 flex flex-col gap-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-gray-200 shadow-sm w-fit">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-teal-accent opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-teal-accent"></span>
+</span>
+<span class="text-xs font-semibold text-navy uppercase tracking-wider">Based in Hyderabad</span>
+</div>
+<h2 class="text-[2.5rem] font-extrabold leading-[1.1] tracking-tight text-heading">
+                    Empowering <br/>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-navy to-teal-accent">Digital Growth</span> <br/>
+                    Global Standards.
+                </h2>
+<p class="text-slate-500 text-lg leading-relaxed max-w-[95%] font-medium">
+                    Premium SEO, Web Development, and Social Media strategies tailored for your business success.
+                </p>
+<div class="flex items-center gap-4 pt-2">
+<button class="flex-1 bg-navy hover:bg-navy-dark text-white h-12 rounded-xl font-bold text-base transition-all flex items-center justify-center gap-2 shadow-lg shadow-navy/20">
+                        Start a Project
+                        <span class="material-symbols-outlined text-sm font-bold">arrow_forward</span>
+</button>
+<button class="h-12 w-12 flex items-center justify-center rounded-xl bg-white border border-gray-200 hover:border-navy/30 hover:bg-gray-50 transition-colors text-navy shadow-sm">
+<span class="material-symbols-outlined">play_arrow</span>
+</button>
+</div>
+</div>
+<div class="mt-10 rounded-2xl overflow-hidden relative h-52 w-full bg-slate-50 border border-gray-100 shadow-soft">
+<div class="absolute inset-0 bg-cover bg-center opacity-80 mix-blend-multiply" data-alt="Abstract cybernetic texture with blue and cyan neon lights" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBTmO1bU7zJ2-KIfH0CWPm7XJ9NG0BUFZRmWvltL5bhBloO0AMA2htUiAjOLc636n9eHG6oO5O9XzQPfzki_V31NgyvafIad3GF_DkWHexKVvz5NQx64zsjWqeWjJFAIY7budFIhBXMKx158C2OGuycy7HKTxD6A-jmmqSmcGPkL_YyqnhtONn6jcPvwksZNCJBnu-GPFTpPXKm-lK-Vcs7NR1PHyIItw0YrHor0omgbUl5iqwhzH-ySViHMYEgmaDc3pHyGPvRSA8"); filter: grayscale(100%) brightness(1.2);'>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/40 to-transparent mix-blend-multiply"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
+<div class="absolute bottom-5 left-5 right-5 flex justify-between items-end z-10">
+<div>
+<p class="text-xs text-teal-accent font-bold tracking-widest uppercase mb-1 drop-shadow-sm">Impact</p>
+<p class="text-2xl font-bold text-white drop-shadow-md">150+ Clients</p>
+</div>
+<div class="bg-white/20 backdrop-blur-sm p-2 rounded-lg">
+<span class="material-symbols-outlined text-white text-3xl">globe_asia</span>
+</div>
+</div>
+</div>
+</section>
+<section class="px-5 bg-surface-light py-10 -mx-0 rounded-3xl">
+<div class="flex items-center justify-between mb-8 px-1">
+<h3 class="text-xl font-bold text-navy">Our Expertise</h3>
+<a class="text-sm text-navy font-semibold hover:text-teal-accent transition-colors flex items-center gap-1" href="#">
+                    View All
+                    <span class="material-symbols-outlined text-sm">chevron_right</span>
+</a>
+</div>
+<div class="grid grid-cols-1 gap-5">
+<div class="group relative p-6 bg-white rounded-2xl border border-gray-100 hover:border-teal-accent/30 transition-all shadow-card hover:shadow-soft overflow-hidden">
+<div class="absolute top-0 right-0 p-4 opacity-[0.03] group-hover:opacity-10 transition-opacity text-navy">
+<span class="material-symbols-outlined text-7xl">terminal</span>
+</div>
+<div class="flex items-start gap-5">
+<div class="w-12 h-12 rounded-xl bg-teal-soft flex items-center justify-center shrink-0 text-teal-accent/90 shadow-sm">
+<span class="material-symbols-outlined text-[26px]">code</span>
+</div>
+<div>
+<h4 class="text-lg font-bold text-heading mb-1.5">Web Development</h4>
+<p class="text-sm text-slate-500 leading-relaxed">Custom, scalable solutions built with modern stacks.</p>
+</div>
+</div>
+</div>
+<div class="group relative p-6 bg-white rounded-2xl border border-gray-100 hover:border-teal-accent/30 transition-all shadow-card hover:shadow-soft overflow-hidden">
+<div class="absolute top-0 right-0 p-4 opacity-[0.03] group-hover:opacity-10 transition-opacity text-navy">
+<span class="material-symbols-outlined text-7xl">query_stats</span>
+</div>
+<div class="flex items-start gap-5">
+<div class="w-12 h-12 rounded-xl bg-teal-soft flex items-center justify-center shrink-0 text-teal-accent/90 shadow-sm">
+<span class="material-symbols-outlined text-[26px]">trending_up</span>
+</div>
+<div>
+<h4 class="text-lg font-bold text-heading mb-1.5">SEO Optimization</h4>
+<p class="text-sm text-slate-500 leading-relaxed">Data-driven strategies to rank higher and grow faster.</p>
+</div>
+</div>
+</div>
+<div class="group relative p-6 bg-white rounded-2xl border border-gray-100 hover:border-teal-accent/30 transition-all shadow-card hover:shadow-soft overflow-hidden">
+<div class="absolute top-0 right-0 p-4 opacity-[0.03] group-hover:opacity-10 transition-opacity text-navy">
+<span class="material-symbols-outlined text-7xl">campaign</span>
+</div>
+<div class="flex items-start gap-5">
+<div class="w-12 h-12 rounded-xl bg-teal-soft flex items-center justify-center shrink-0 text-teal-accent/90 shadow-sm">
+<span class="material-symbols-outlined text-[26px]">share</span>
+</div>
+<div>
+<h4 class="text-lg font-bold text-heading mb-1.5">Social Media Mgmt</h4>
+<p class="text-sm text-slate-500 leading-relaxed">Engage your audience with creative content campaigns.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="px-5">
+<div class="relative overflow-hidden rounded-2xl bg-navy text-white p-7 shadow-xl">
+<div class="absolute inset-0 z-0 opacity-10 bg-no-repeat bg-right-bottom bg-contain pointer-events-none mix-blend-overlay" data-location="Map of Hyderabad district outline" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAeuBJiiKMUYOrvCcbi3aBD7QMGk-SKyBzxsisNrATJBHePMdXnLv09e7lcE2RvmcLlFjhuL7LQIpxPPgsju7RlgcvSR0fx-La2KtWWK29OW-eegMasYkKo9eSgJqzFsL77BykovwLeWhE4ys12oild9dkvvtUJDFj5XV91MzMCI8_hhJrfgZESCHIzW4g2YD8zmMhAHzal-A0-lZuFpJReXSTZ_JMD8a-4mQMX3_e_DctmrhjVVqYqI0qJsTw5OflRgNKDd7Psd6U'); filter: invert(1);">
+</div>
+<div class="relative z-10">
+<div class="flex items-center gap-2 mb-3">
+<div class="h-[2px] w-6 bg-teal-accent"></div>
+<p class="text-teal-accent text-xs font-bold uppercase tracking-wider">Who We Are</p>
+</div>
+<h3 class="text-2xl font-bold text-white mb-4">Made in Hyderabad. <br/>Built for the World.</h3>
+<p class="text-slate-300 text-sm leading-relaxed mb-6 max-w-[90%]">
+                         We are a team of passionate developers, designers, and strategists based in Sindh. We bridge the gap between local talent and global standards.
+                     </p>
+<div class="flex items-center gap-4 bg-white/10 p-3 rounded-xl w-fit backdrop-blur-sm border border-white/5">
+<div class="flex -space-x-3">
+<img alt="Team member portrait" class="inline-block h-8 w-8 rounded-full ring-2 ring-navy bg-gray-200 object-cover" data-alt="Portrait of a female team member" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgNevo9aihm44lc-9ezD6G5U4LwK_p4xLJFHL_rw3SHqxYEHk4n18lJymPEpilnUrNHSAu3rIKl12ZS_VLoBHuhWVvUWaxD5CteDPvmFVO4HBf2tQKTXzNI0e04_79R_TILUw4Bw595u-U_ao9XxVI844zgP93h8-di8xdeDylBLQzQrOvAb0STKYO6lQynt2o7XTsiWV9C8fx05TylqHrxyG_RzVW57wEZNh_v87D8_8DklOt_ISbbaY5zov_wd8qzNWoUqs_FPI"/>
+<img alt="Team member portrait" class="inline-block h-8 w-8 rounded-full ring-2 ring-navy bg-gray-200 object-cover" data-alt="Portrait of a male team member" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkAew3dYA45ECvqJ6EqqIH7AiOTEiQdWITmnbqLC1p3J0EBwHu8rxLv5HJ2v8cN38PmS13igDhUevqGX-tZtKVpKQ5TYKAWLoQZCsP0LwMVJ5FxmcPj_50IRfgsdbs5zr4146uT3O_SydFTHY1Df6JYBl_Ao_b5HJ8KjMqMqJXKhf8kzwdgs8cMKQ-kgki7KyTYViUtLGjiga0fHCPferEArEphgtYNZeX19GfQuzWJx44JwqBTj2Dc3m0MdfwsqKIJgipxWDFBhU"/>
+<img alt="Team member portrait" class="inline-block h-8 w-8 rounded-full ring-2 ring-navy bg-gray-200 object-cover" data-alt="Portrait of a male team member" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXpTgMazRT0mFpjxP9yFyWa0_DcnilAY6OqWyNr2x0ucpWeijxf_iSLOCKPAgSMj1GhL-KR21Cmo4Xa70i9nS9FgpFGsXaIb8zTKq2ipXC3u0Vj-pRv49MZNk-X3Mmr4nvNX0GKHccX3-XDMiMQoMyUhsEX-rUS2NmNryXMxe3zn61jPBOWIIEHstx2P4SYgkHZG7naji15br6Qz7cXbF4sHejF4VfdtvDQM1X7XveqHgtsJKJxWHmyPAlbblVmdV46I7ZvWiTr24"/>
+</div>
+<span class="text-xs text-white font-semibold tracking-wide">+12 others</span>
+</div>
+</div>
+</div>
+</section>
+<section class="pb-4">
+<div class="px-5 mb-6">
+<h3 class="text-xs font-bold text-slate-400 uppercase tracking-widest text-center">Trusted By Industry Leaders</h3>
+</div>
+<div class="relative w-full overflow-hidden">
+<div class="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-white to-transparent z-10"></div>
+<div class="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-white to-transparent z-10"></div>
+<div class="flex items-center gap-10 px-5 overflow-x-auto hide-scrollbar whitespace-nowrap py-2 opacity-70">
+<div class="flex items-center gap-2 text-xl font-bold text-slate-600"><span class="material-symbols-outlined text-3xl text-navy">token</span> NexTech</div>
+<div class="flex items-center gap-2 text-xl font-bold text-slate-600"><span class="material-symbols-outlined text-3xl text-navy">all_inclusive</span> Infinity</div>
+<div class="flex items-center gap-2 text-xl font-bold text-slate-600"><span class="material-symbols-outlined text-3xl text-navy">diamond</span> LuxeWeb</div>
+<div class="flex items-center gap-2 text-xl font-bold text-slate-600"><span class="material-symbols-outlined text-3xl text-navy">bolt</span> RapidScale</div>
+<div class="flex items-center gap-2 text-xl font-bold text-slate-600"><span class="material-symbols-outlined text-3xl text-navy">anchor</span> HarborIO</div>
+</div>
+</div>
+</section>
+<nav class="fixed bottom-0 left-0 right-0 z-50 glass-nav border-t border-gray-200 pb-safe">
+<div class="max-w-md mx-auto flex items-center justify-around h-[88px] pb-5 px-2">
+<button class="flex flex-col items-center justify-center gap-1 w-16 group">
+<div class="w-12 h-8 rounded-full bg-navy/10 flex items-center justify-center group-hover:bg-navy/20 transition-colors">
+<span class="material-symbols-outlined text-navy text-2xl filled">home</span>
+</div>
+<span class="text-[10px] font-bold text-navy">Home</span>
+</button>
+<button class="flex flex-col items-center justify-center gap-1 w-16 group">
+<div class="w-12 h-8 rounded-full bg-transparent flex items-center justify-center group-hover:bg-gray-100 transition-colors">
+<span class="material-symbols-outlined text-slate-400 text-2xl group-hover:text-navy transition-colors">grid_view</span>
+</div>
+<span class="text-[10px] font-medium text-slate-400 group-hover:text-navy transition-colors">Services</span>
+</button>
+<button class="flex flex-col items-center justify-center gap-1 w-16 group">
+<div class="w-12 h-8 rounded-full bg-transparent flex items-center justify-center group-hover:bg-gray-100 transition-colors">
+<span class="material-symbols-outlined text-slate-400 text-2xl group-hover:text-navy transition-colors">folder_open</span>
+</div>
+<span class="text-[10px] font-medium text-slate-400 group-hover:text-navy transition-colors">Work</span>
+</button>
+<button class="flex flex-col items-center justify-center gap-1 w-16 group">
+<div class="w-12 h-8 rounded-full bg-transparent flex items-center justify-center group-hover:bg-gray-100 transition-colors">
+<span class="material-symbols-outlined text-slate-400 text-2xl group-hover:text-navy transition-colors">mail</span>
+</div>
+<span class="text-[10px] font-medium text-slate-400 group-hover:text-navy transition-colors">Contact</span>
+</button>
+</div>
+</nav>
+</main>
+
+</body></html>

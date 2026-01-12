@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Portfolio Showcase - Geezek.com</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#00bdc7",
+              "navy": "#002b49", 
+              "background-light": "#fafafa", 
+              "surface-white": "#ffffff",
+            },
+            fontFamily: {
+              "display": ["Manrope", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "full": "9999px"},
+            boxShadow: {
+                "gallery": "0 10px 40px -10px rgba(0,0,0,0.08)",
+                "subtle": "0 2px 10px rgba(0,0,0,0.03)"
+            }
+          },
+        },
+      }
+    </script>
+<style>.no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }.no-scrollbar {
+            -ms-overflow-style: none;scrollbar-width: none;}
+        body {
+            min-height: 100vh;
+            background-color: #fafafa;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light font-display text-gray-900 antialiased">
+<div class="relative flex h-full min-h-screen w-full flex-col overflow-hidden pb-24">
+<header class="sticky top-0 z-30 flex items-center justify-between bg-background-light/90 px-4 py-4 backdrop-blur-md border-b border-gray-100">
+<button class="flex size-10 items-center justify-center rounded-full text-gray-900 hover:bg-black/5 transition-colors">
+<span class="material-symbols-outlined">arrow_back</span>
+</button>
+<h1 class="flex-1 text-center text-lg font-bold tracking-tight text-navy">Selected Projects</h1>
+<button class="flex size-10 items-center justify-center rounded-full text-gray-900 hover:bg-black/5 transition-colors">
+<span class="material-symbols-outlined">search</span>
+</button>
+</header>
+<div class="sticky top-[73px] z-20 w-full overflow-x-auto bg-background-light/95 pl-4 pb-4 pt-3 no-scrollbar border-b border-gray-100/50 backdrop-blur-sm">
+<div class="flex gap-3 pr-4">
+<button class="flex h-9 min-w-max items-center justify-center rounded-full bg-navy px-5 text-sm font-bold text-white shadow-lg shadow-navy/20 transition-transform active:scale-95">
+                    All Work
+                </button>
+<button class="flex h-9 min-w-max items-center justify-center rounded-full border border-gray-200 bg-white px-5 text-sm font-medium text-gray-600 transition-colors active:scale-95 hover:border-navy/30 hover:text-navy">
+                    Web Development
+                </button>
+<button class="flex h-9 min-w-max items-center justify-center rounded-full border border-gray-200 bg-white px-5 text-sm font-medium text-gray-600 transition-colors active:scale-95 hover:border-navy/30 hover:text-navy">
+                    SEO Campaigns
+                </button>
+<button class="flex h-9 min-w-max items-center justify-center rounded-full border border-gray-200 bg-white px-5 text-sm font-medium text-gray-600 transition-colors active:scale-95 hover:border-navy/30 hover:text-navy">
+                    Social Media
+                </button>
+</div>
+</div>
+<main class="flex flex-col gap-8 p-5">
+<article class="group relative flex flex-col bg-white p-3 rounded-2xl shadow-subtle hover:shadow-gallery transition-all duration-300 border border-gray-100">
+<div class="relative overflow-hidden rounded-xl bg-gray-100 aspect-[4/3]">
+<img alt="Data dashboard analytics showing growth graphs" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Data dashboard analytics showing growth graphs" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEg_ujqo3qs-40otccxAMSlwyuNIB1JjJi1RlXMh_LZ1n8FqlTI5VCbtTH55zUv8dPvFycv9NiDBbH_mzx181PIctHd5qr9flT_ILHjwT-YoTORPz3NKRqmdjDPd4t13gcPT4EwAtCQkNwU9_X_2rKFQLoQ_zMi1fDr3wmzp3juCrYdcg896pb_XsmI80c9GOpbboRddsH2hqOhJozPNiPGvFvEpXjCFtrbfiSfrk1556Cxy8D4vNf8As-qY_8lkpW6xpY-0n02Yk"/>
+<div class="absolute inset-0 bg-navy/90 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6">
+<p class="text-white text-center font-medium leading-relaxed">
+                            Achieved #1 ranking on Google for "Luxury Furniture Hyderabad" in 3 months. Increased organic footfall by 45%.
+                        </p>
+</div>
+<div class="absolute top-3 right-3 z-10 rounded-full bg-white/90 backdrop-blur-md shadow-sm px-3 py-1 text-xs font-bold text-navy border border-gray-100">
+                        +150% Leads
+                    </div>
+</div>
+<div class="flex flex-col gap-1 pt-4 px-1 pb-1">
+<div class="flex items-center gap-2 mb-1">
+<span class="text-[10px] font-bold uppercase tracking-wider text-navy">Local SEO</span>
+<span class="text-[10px] font-bold uppercase tracking-wider text-gray-400">•</span>
+<span class="text-[10px] font-bold uppercase tracking-wider text-navy">Retail</span>
+</div>
+<div class="flex items-center justify-between">
+<h2 class="text-xl font-bold text-gray-900">Hyderabad Retail Growth</h2>
+<span class="material-symbols-outlined text-gray-300 group-hover:text-primary transition-colors">arrow_outward</span>
+</div>
+</div>
+</article>
+<article class="group relative flex flex-col bg-white p-3 rounded-2xl shadow-subtle hover:shadow-gallery transition-all duration-300 border border-gray-100">
+<div class="relative overflow-hidden rounded-xl bg-gray-100 aspect-[4/3]">
+<img alt="Abstract digital waves representing social media streaming" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Abstract digital waves representing social media streaming" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDuj1t1zN8E2_jlPyuk5MIlEQZwEqH-kH-tJw2py6E7LObqUwNj0XctPxMUKWpVPhXiDUKvfLXNuk6R7JMCOHLRUVqc3fofg7u5s8kUbNAE8oX8cgV2weMVw6Ibw8KN57GNKpLzvsrUofdar1Ri9GwCzWfsgTGoFed0hyOthVqfoPnv15fuPtBoxrzA3W8RhKa_N10wkU1Ki1SXgeyw0iqRI1YHVkygg9CxNBykjFiqSjmJYivkfbRIifWMUSOhDhA9l8dpxVR0io0"/>
+<div class="absolute inset-0 bg-navy/90 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6">
+<p class="text-white text-center font-medium leading-relaxed">
+                            Viral Instagram campaign reaching 2M+ accounts across Sindh. Integrated AR filters for virtual try-ons.
+                        </p>
+</div>
+</div>
+<div class="flex flex-col gap-1 pt-4 px-1 pb-1">
+<div class="flex items-center gap-2 mb-1">
+<span class="text-[10px] font-bold uppercase tracking-wider text-navy">Social Media</span>
+<span class="text-[10px] font-bold uppercase tracking-wider text-gray-400">•</span>
+<span class="text-[10px] font-bold uppercase tracking-wider text-navy">Branding</span>
+</div>
+<div class="flex items-center justify-between">
+<h2 class="text-xl font-bold text-gray-900">Karachi Fashion Week</h2>
+<span class="material-symbols-outlined text-gray-300 group-hover:text-primary transition-colors">arrow_outward</span>
+</div>
+</div>
+</article>
+<article class="group relative flex flex-col bg-white p-3 rounded-2xl shadow-subtle hover:shadow-gallery transition-all duration-300 border border-gray-100">
+<div class="relative overflow-hidden rounded-xl bg-gray-100 aspect-[4/3]">
+<img alt="Modern clean dashboard interface on a laptop screen" class="h-full w-full object-cover object-top transition-transform duration-700 group-hover:scale-105" data-alt="Modern clean dashboard interface on a laptop screen" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdlmHokrBRMi51rVngDrmXu_t3oEBfbIihRo9mUsJXrHjV8daCCFwdBAPQ1c0Jl681QTKyd89TwUETtnrrhZ5DKNTuBLmP18grbWBoskMPA4FgGBady1BC367Ewjlo_fC5H13LHdvO-3bJQ9CyFMuDyS_BPeribQLAJbrDevwS1AwIDRcwJB7pzmtXjcFnRzHuHjwTpBMLIYiB0aW3T5LrctEiYuuKP7Wows8gv_2Mz2wD7hJ_kbPy1_S1wLSpp5naGCgODDCkFiQ"/>
+<div class="absolute inset-0 bg-navy/90 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6">
+<p class="text-white text-center font-medium leading-relaxed">
+                            Complete frontend overhaul for a leading fintech startup in Hyderabad. Improved load times by 60%.
+                        </p>
+</div>
+</div>
+<div class="flex flex-col gap-1 pt-4 px-1 pb-1">
+<div class="flex items-center gap-2 mb-1">
+<span class="text-[10px] font-bold uppercase tracking-wider text-navy">Web Development</span>
+<span class="text-[10px] font-bold uppercase tracking-wider text-gray-400">•</span>
+<span class="text-[10px] font-bold uppercase tracking-wider text-navy">UI/UX</span>
+</div>
+<div class="flex items-center justify-between">
+<h2 class="text-xl font-bold text-gray-900">TechStart SaaS</h2>
+<span class="material-symbols-outlined text-gray-300 group-hover:text-primary transition-colors">arrow_outward</span>
+</div>
+</div>
+</article>
+<article class="group relative flex flex-col bg-white p-3 rounded-2xl shadow-subtle hover:shadow-gallery transition-all duration-300 border border-gray-100">
+<div class="relative overflow-hidden rounded-xl bg-gray-100 aspect-[4/3]">
+<img alt="Modern eco-friendly store interior with products" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Modern eco-friendly store interior with products" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAu21W85VYPmIpTNsMLHTx86jFyTsgAzZzdGMeYl9IAuBLDPQKbFEj8EmiLjppO5vwTakYysKvNtGCbQJRYwPUSFqySieRYkQGL6WveF8r_GoSKoE6Cwu5MsE0RH4rWU1t0f5PeDiXF0CcZ7EULysbjJRDAVOCM_2UGOv7iqMu2if1Vag7vOd2muW3LL2z0CChVcV0KWxSBqufucsdLX6bxAa6EeYCAEHRqavJ_zS4UZTu1iSkza2dg8dQVTD0bfV2JfAiNQhFaFDk"/>
+<div class="absolute inset-0 bg-navy/90 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6">
+<p class="text-white text-center font-medium leading-relaxed">
+                            Custom Shopify theme development focusing on sustainable brands and fast checkout experiences.
+                        </p>
+</div>
+</div>
+<div class="flex flex-col gap-1 pt-4 px-1 pb-1">
+<div class="flex items-center gap-2 mb-1">
+<span class="text-[10px] font-bold uppercase tracking-wider text-navy">E-commerce</span>
+<span class="text-[10px] font-bold uppercase tracking-wider text-gray-400">•</span>
+<span class="text-[10px] font-bold uppercase tracking-wider text-navy">2023</span>
+</div>
+<div class="flex items-center justify-between">
+<h2 class="text-xl font-bold text-gray-900">EcoStore Online</h2>
+<span class="material-symbols-outlined text-gray-300 group-hover:text-primary transition-colors">arrow_outward</span>
+</div>
+</div>
+</article>
+<div class="h-12"></div>
+</main>
+<div class="fixed bottom-24 right-5 z-40">
+<button class="flex items-center gap-2 rounded-full bg-primary pl-4 pr-5 py-3 shadow-[0_4px_20px_rgba(0,189,199,0.4)] transition-transform active:scale-95 hover:bg-[#00a8b1] text-white">
+<span class="material-symbols-outlined">edit_note</span>
+<span class="font-bold">Get Quote</span>
+</button>
+</div>
+<nav class="fixed bottom-0 z-50 w-full border-t border-gray-200 bg-white/95 backdrop-blur-lg pb-safe shadow-[0_-5px_20px_rgba(0,0,0,0.02)]">
+<div class="flex h-16 items-center justify-around px-2">
+<a class="group flex flex-col items-center gap-1 p-2" href="#">
+<span class="material-symbols-outlined text-2xl text-gray-400 transition-colors group-hover:text-navy">home</span>
+<span class="text-[10px] font-medium text-gray-400 group-hover:text-navy">Home</span>
+</a>
+<a class="group flex flex-col items-center gap-1 p-2" href="#">
+<div class="relative">
+<span class="material-symbols-outlined text-2xl text-navy font-variation-settings-fill">grid_view</span>
+<span class="absolute -top-1 -right-1 size-2 rounded-full bg-primary shadow-sm ring-2 ring-white"></span>
+</div>
+<span class="text-[10px] font-bold text-navy">Portfolio</span>
+</a>
+<a class="group flex flex-col items-center gap-1 p-2" href="#">
+<span class="material-symbols-outlined text-2xl text-gray-400 transition-colors group-hover:text-navy">design_services</span>
+<span class="text-[10px] font-medium text-gray-400 group-hover:text-navy">Services</span>
+</a>
+<a class="group flex flex-col items-center gap-1 p-2" href="#">
+<span class="material-symbols-outlined text-2xl text-gray-400 transition-colors group-hover:text-navy">mail</span>
+<span class="text-[10px] font-medium text-gray-400 group-hover:text-navy">Contact</span>
+</a>
+</div>
+</nav>
+</div>
+<script>
+        // Simple script to handle Material Symbols loading if fill variation is needed
+        document.head.insertAdjacentHTML("beforeend", `<style>
+        .material-symbols-outlined.font-variation-settings-fill {
+          font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        </style>`)
+    </script>
+
+</body></html>
