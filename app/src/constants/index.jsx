@@ -16,7 +16,7 @@ export const PROJECTS = [
         category: "Social Media",
         description: "Viral Instagram campaign reaching 2M+ accounts across Sindh. Integrated AR filters for virtual try-ons.",
         stat: "2M+ Reach",
-        image: "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-WNuYDylj104?auto=format&fit=crop&q=80&w=800",
         tags: ["Social Media", "Branding"],
     },
     {
@@ -43,7 +43,7 @@ export const PROJECTS = [
         category: "Web Development",
         description: "Secure patient management system for a private clinic network. HIPPA compliant and fully responsive.",
         stat: "Secure",
-        image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-NM1K5l6t5A8?auto=format&fit=crop&q=80&w=800",
         tags: ["Web Dev", "Healthcare"],
     },
     {
@@ -114,46 +114,46 @@ export const TESTIMONIALS = [
         name: "Ahmed Raza",
         role: "CEO, InteriorsPK",
         content: "Geezek transformed our online presence. Our sales doubled in just three months thanks to their SEO wizardry.",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200"
+        image: "https://images.unsplash.com/photo-O3y84M_uKQM?auto=format&fit=crop&q=80&w=200"
     },
     {
         id: 2,
         name: "Sarah Khan",
         role: "Founder, StyleStudio",
         content: "The branding they created for us is absolutely stunning. It perfectly captures our ethos. Highly recommended!",
-        image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200"
+        image: "https://images.unsplash.com/photo-GW08HUlwF0o?auto=format&fit=crop&q=80&w=200"
     },
     {
         id: 3,
         name: "Bilal Sheikh",
         role: "CTO, FinFlow",
         content: "Technical expertise at its finest. They built a complex dashboard for us that runs smoother than we imagined.",
-        image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200"
+        image: "https://images.unsplash.com/photo-wDxfnB1Y2xo?auto=format&fit=crop&q=80&w=200"
     }
 ];
 
 export const TEAM_MEMBERS = [
     {
         id: 1,
-        image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400",
+        image: "https://images.unsplash.com/photo-L_MIDL5tVso?auto=format&fit=crop&q=80&w=400",
         name: "Jibran Khan",
         role: "Lead Developer"
     },
     {
         id: 2,
-        image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400",
+        image: "https://images.unsplash.com/photo-mA8tRLbBeDk?auto=format&fit=crop&q=80&w=400",
         name: "Ayesha Malik",
         role: "Creative Director"
     },
     {
         id: 3,
-        image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400",
+        image: "https://images.unsplash.com/photo-B8UOh_r_ODw?auto=format&fit=crop&q=80&w=400",
         name: "Zain Ahmed",
         role: "SEO Specialist"
     },
     {
         id: 4,
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=400",
+        image: "https://images.unsplash.com/photo-9_SGJm3t8Mo?auto=format&fit=crop&q=80&w=400",
         name: "Fatima Ali",
         role: "UI/UX Designer"
     }

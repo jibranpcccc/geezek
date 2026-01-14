@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 import { Link, useParams, Navigate } from 'react-router-dom';
 import { SERVICES, PROJECTS, TESTIMONIALS } from '../constants';
+import ScrollReveal, { FadeIn } from '../components/ScrollReveal';
 
 // Extended service data with comprehensive details
 const SERVICE_DETAILS = {
@@ -226,142 +227,168 @@ export default function ServiceDetail() {
 
             {/* Hero Section */}
             <section className="relative px-5 lg:px-8 pt-8 lg:pt-16 overflow-hidden max-w-7xl mx-auto w-full">
-                <div className="absolute top-0 right-0 w-96 h-96 bg-teal-accent/10 rounded-full blur-[100px] pointer-events-none translate-x-1/2 -translate-y-1/2"></div>
+                <div className="absolute top-0 right-0 w-96 h-96 bg-teal-accent/10 dark:bg-teal-accent/5 rounded-full blur-[100px] pointer-events-none translate-x-1/2 -translate-y-1/2"></div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div>
-                        <Link to="/services" className="inline-flex items-center gap-2 text-teal-accent text-sm font-bold mb-6 hover:underline">
-                            <span className="material-symbols-outlined text-lg">arrow_back</span>
-                            All Services
-                        </Link>
-
-                        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-teal-soft border border-teal-accent/20 mb-6">
-                            <span className="material-symbols-outlined text-teal-accent text-sm">{service.icon}</span>
-                            <span className="text-xs font-bold text-teal-accent uppercase tracking-wider">{service.tagline}</span>
-                        </div>
-
-                        <h1 className="text-4xl lg:text-6xl font-extrabold text-navy leading-tight mb-6">
-                            {service.title}
-                        </h1>
-
-                        <p className="text-slate-500 text-lg leading-relaxed mb-8">
-                            {service.description}
-                        </p>
-
-                        <div className="flex flex-col sm:flex-row gap-4">
-                            <Link to="/contact" className="bg-navy hover:bg-navy-dark text-white px-8 py-4 rounded-xl font-bold transition-all shadow-lg shadow-navy/20 hover:-translate-y-1 flex items-center justify-center gap-2">
-                                Get a Free Quote
-                                <span className="material-symbols-outlined">arrow_forward</span>
+                        <FadeIn delay={0.1}>
+                            <Link to="/services" className="inline-flex items-center gap-2 text-teal-accent text-sm font-bold mb-6 hover:underline">
+                                <span className="material-symbols-outlined text-lg">arrow_back</span>
+                                All Services
                             </Link>
-                            <a href="tel:+923332622962" className="bg-white hover:bg-gray-50 text-navy px-8 py-4 rounded-xl font-bold transition-all border border-gray-200 flex items-center justify-center gap-2">
-                                <span className="material-symbols-outlined">call</span>
-                                0333 2622962
-                            </a>
-                        </div>
+                        </FadeIn>
+
+                        <FadeIn delay={0.2}>
+                            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-teal-soft dark:bg-teal-accent/10 border border-teal-accent/20 dark:border-teal-accent/20 mb-6">
+                                <span className="material-symbols-outlined text-teal-accent text-sm">{service.icon}</span>
+                                <span className="text-xs font-bold text-teal-accent uppercase tracking-wider">{service.tagline}</span>
+                            </div>
+                        </FadeIn>
+
+                        <FadeIn delay={0.3}>
+                            <h1 className="text-4xl lg:text-6xl font-extrabold text-navy dark:text-white leading-tight mb-6">
+                                {service.title}
+                            </h1>
+                        </FadeIn>
+
+                        <FadeIn delay={0.4}>
+                            <p className="text-slate-500 dark:text-slate-400 text-lg leading-relaxed mb-8">
+                                {service.description}
+                            </p>
+                        </FadeIn>
+
+                        <FadeIn delay={0.5}>
+                            <div className="flex flex-col sm:flex-row gap-4">
+                                <Link to="/contact" className="bg-navy hover:bg-navy-dark text-white dark:bg-teal-accent dark:text-navy dark:hover:bg-teal-accent/90 px-8 py-4 rounded-xl font-bold transition-all shadow-lg shadow-navy/20 active:scale-95 hover:-translate-y-1 flex items-center justify-center gap-2">
+                                    Get a Free Quote
+                                    <span className="material-symbols-outlined">arrow_forward</span>
+                                </Link>
+                                <a href="tel:+923332622962" className="bg-white hover:bg-gray-50 dark:bg-slate-800 dark:hover:bg-slate-700 text-navy dark:text-white px-8 py-4 rounded-xl font-bold transition-all border border-gray-200 dark:border-white/10 flex items-center justify-center gap-2">
+                                    <span className="material-symbols-outlined">call</span>
+                                    0333 2622962
+                                </a>
+                            </div>
+                        </FadeIn>
                     </div>
 
-                    <div className="relative">
-                        <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
-                            <img
-                                loading="lazy"
-                                src={service.heroImage}
-                                alt={service.title}
-                                className="w-full h-full object-cover"
-                            />
-                        </div>
-                        <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-2xl shadow-xl border border-gray-100">
-                            <div className="flex items-center gap-4">
-                                {service.stats.map((stat, i) => (
-                                    <div key={i} className={`text-center ${i > 0 ? 'border-l border-gray-200 pl-4' : ''}`}>
-                                        <p className="text-2xl font-extrabold text-navy">{stat.value}</p>
-                                        <p className="text-slate-500 text-xs">{stat.label}</p>
-                                    </div>
-                                ))}
+                    <FadeIn delay={0.6}>
+                        <div className="relative">
+                            <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl border border-gray-100 dark:border-white/5">
+                                <img
+                                    loading="lazy"
+                                    src={service.heroImage}
+                                    alt={service.title}
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
+                            <div className="absolute -bottom-6 -left-6 bg-white dark:bg-slate-800 p-4 rounded-2xl shadow-xl border border-gray-100 dark:border-white/5 card-shadow">
+                                <div className="flex items-center gap-4">
+                                    {service.stats.map((stat, i) => (
+                                        <div key={i} className={`text-center ${i > 0 ? 'border-l border-gray-200 dark:border-white/10 pl-4' : ''}`}>
+                                            <p className="text-2xl font-extrabold text-navy dark:text-white">{stat.value}</p>
+                                            <p className="text-slate-500 dark:text-slate-400 text-xs">{stat.label}</p>
+                                        </div>
+                                    ))}
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </FadeIn>
                 </div>
             </section>
 
             {/* Features Grid */}
             <section className="px-5 lg:px-8 max-w-7xl mx-auto w-full">
-                <div className="text-center mb-12">
-                    <span className="text-teal-accent font-bold tracking-widest uppercase text-xs">What's Included</span>
-                    <h2 className="text-3xl lg:text-4xl font-extrabold text-navy mt-2">Our {service.title} Services</h2>
-                </div>
+                <ScrollReveal>
+                    <div className="text-center mb-12">
+                        <span className="text-teal-accent font-bold tracking-widest uppercase text-xs">What's Included</span>
+                        <h2 className="text-3xl lg:text-4xl font-extrabold text-navy dark:text-white mt-2">Our {service.title} Services</h2>
+                    </div>
+                </ScrollReveal>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {service.features.map((feature, i) => (
-                        <div key={i} className="bg-white rounded-2xl p-6 border border-gray-100 shadow-soft hover:shadow-lg transition-all hover:-translate-y-1 group">
-                            <div className="w-14 h-14 rounded-2xl bg-teal-soft flex items-center justify-center mb-5 group-hover:bg-teal-accent/20 transition-colors">
-                                <span className="material-symbols-outlined text-teal-accent text-2xl">{feature.icon}</span>
+                        <ScrollReveal key={i} delay={i * 0.1}>
+                            <div className="bg-white dark:bg-slate-800 rounded-2xl p-6 border border-gray-100 dark:border-white/5 shadow-soft hover:shadow-lg transition-all hover:-translate-y-1 group h-full">
+                                <div className="w-14 h-14 rounded-2xl bg-teal-soft dark:bg-teal-accent/10 flex items-center justify-center mb-5 group-hover:bg-teal-accent/20 transition-colors">
+                                    <span className="material-symbols-outlined text-teal-accent text-2xl">{feature.icon}</span>
+                                </div>
+                                <h3 className="text-xl font-bold text-navy dark:text-white mb-2">{feature.title}</h3>
+                                <p className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">{feature.desc}</p>
                             </div>
-                            <h3 className="text-xl font-bold text-navy mb-2">{feature.title}</h3>
-                            <p className="text-slate-500 text-sm leading-relaxed">{feature.desc}</p>
-                        </div>
+                        </ScrollReveal>
                     ))}
                 </div>
             </section>
 
             {/* Process Section */}
             <section className="px-5 lg:px-8 max-w-7xl mx-auto w-full">
-                <div className="bg-gradient-to-br from-navy via-navy-dark to-navy rounded-3xl p-8 lg:p-12 relative overflow-hidden">
-                    <div className="absolute top-0 right-0 w-64 h-64 bg-teal-accent/10 rounded-full blur-[100px] pointer-events-none"></div>
+                <ScrollReveal>
+                    <div className="bg-gradient-to-br from-navy via-navy-dark to-navy dark:from-slate-800 dark:via-slate-900 dark:to-slate-800 rounded-3xl p-8 lg:p-12 relative overflow-hidden border border-white/5">
+                        <div className="absolute top-0 right-0 w-64 h-64 bg-teal-accent/10 rounded-full blur-[100px] pointer-events-none"></div>
 
-                    <div className="text-center mb-12 relative z-10">
-                        <span className="text-teal-accent font-bold tracking-widest uppercase text-xs">How We Work</span>
-                        <h2 className="text-3xl lg:text-4xl font-extrabold text-white mt-2">Our Process</h2>
-                    </div>
+                        <div className="text-center mb-12 relative z-10">
+                            <span className="text-teal-accent font-bold tracking-widest uppercase text-xs">How We Work</span>
+                            <h2 className="text-3xl lg:text-4xl font-extrabold text-white mt-2">Our Process</h2>
+                        </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 relative z-10">
-                        {service.process.map((step, i) => (
-                            <div key={i} className="relative">
-                                <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/10 h-full">
-                                    <div className="w-12 h-12 rounded-full bg-teal-accent text-navy font-extrabold text-xl flex items-center justify-center mb-4">
-                                        {step.step}
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 relative z-10">
+                            {service.process.map((step, i) => (
+                                <ScrollReveal key={i} delay={i * 0.1}>
+                                    <div className="relative h-full">
+                                        <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/10 h-full hover:bg-white/20 transition-colors">
+                                            <div className="w-12 h-12 rounded-full bg-teal-accent text-navy font-extrabold text-xl flex items-center justify-center mb-4">
+                                                {step.step}
+                                            </div>
+                                            <h3 className="text-white font-bold text-lg mb-2">{step.title}</h3>
+                                            <p className="text-white/70 text-sm">{step.desc}</p>
+                                        </div>
+                                        {i < service.process.length - 1 && (
+                                            <div className="hidden lg:block absolute top-1/2 -right-3 w-6 h-0.5 bg-teal-accent/50"></div>
+                                        )}
                                     </div>
-                                    <h3 className="text-white font-bold text-lg mb-2">{step.title}</h3>
-                                    <p className="text-white/70 text-sm">{step.desc}</p>
-                                </div>
-                                {i < service.process.length - 1 && (
-                                    <div className="hidden lg:block absolute top-1/2 -right-3 w-6 h-0.5 bg-teal-accent/50"></div>
-                                )}
-                            </div>
-                        ))}
+                                </ScrollReveal>
+                            ))}
+                        </div>
                     </div>
-                </div>
+                </ScrollReveal>
             </section>
 
             {/* FAQs */}
             <section className="px-5 lg:px-8 max-w-7xl mx-auto w-full">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                     <div>
-                        <span className="text-teal-accent font-bold tracking-widest uppercase text-xs">FAQ</span>
-                        <h2 className="text-3xl lg:text-4xl font-extrabold text-navy mt-2 mb-6">Common Questions</h2>
-                        <p className="text-slate-500 text-lg mb-8">
-                            Get answers to the most frequently asked questions about our {service.title.toLowerCase()} services.
-                        </p>
-                        <div className="bg-teal-soft rounded-2xl p-6 border border-teal-accent/20">
-                            <p className="text-navy font-bold mb-2">Starting at</p>
-                            <p className="text-3xl font-extrabold text-teal-accent">{service.pricing.starting}</p>
-                            <p className="text-slate-500 text-sm mt-2">{service.pricing.note}</p>
-                            <Link to="/contact" className="mt-4 w-full bg-navy hover:bg-navy-dark text-white py-3 rounded-xl font-bold transition-all flex items-center justify-center gap-2">
-                                Request a Quote
-                            </Link>
-                        </div>
+                        <FadeIn>
+                            <span className="text-teal-accent font-bold tracking-widest uppercase text-xs">FAQ</span>
+                            <h2 className="text-3xl lg:text-4xl font-extrabold text-navy dark:text-white mt-2 mb-6">Common Questions</h2>
+                            <p className="text-slate-500 dark:text-slate-400 text-lg mb-8">
+                                Get answers to the most frequently asked questions about our {service.title.toLowerCase()} services.
+                            </p>
+                        </FadeIn>
+                        <FadeIn delay={0.2}>
+                            <div className="bg-teal-soft dark:bg-slate-800 rounded-2xl p-6 border border-teal-accent/20 dark:border-white/10">
+                                <p className="text-navy dark:text-white font-bold mb-2">Starting at</p>
+                                <p className="text-3xl font-extrabold text-teal-accent">{service.pricing.starting}</p>
+                                <p className="text-slate-500 dark:text-slate-400 text-sm mt-2">{service.pricing.note}</p>
+                                <Link to="/contact" className="mt-4 w-full bg-navy hover:bg-navy-dark text-white dark:bg-teal-accent dark:text-navy dark:hover:bg-teal-accent/90 py-3 rounded-xl font-bold transition-all flex items-center justify-center gap-2">
+                                    Request a Quote
+                                </Link>
+                            </div>
+                        </FadeIn>
                     </div>
 
                     <div className="space-y-4">
                         {service.faqs.map((faq, i) => (
-                            <details key={i} className="group bg-white rounded-2xl border border-gray-100 shadow-soft overflow-hidden">
-                                <summary className="p-6 cursor-pointer flex items-center justify-between font-bold text-navy hover:bg-gray-50 transition-colors">
-                                    {faq.q}
-                                    <span className="material-symbols-outlined text-slate-400 group-open:rotate-180 transition-transform">expand_more</span>
-                                </summary>
-                                <div className="px-6 pb-6 text-slate-500">
-                                    {faq.a}
-                                </div>
-                            </details>
+                            <ScrollReveal key={i} delay={i * 0.1}>
+                                <details className="group bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-white/5 shadow-soft overflow-hidden">
+                                    <summary className="p-6 cursor-pointer flex items-center justify-between font-bold text-navy dark:text-white hover:bg-gray-50 dark:hover:bg-slate-700/50 transition-colors">
+                                        {faq.q}
+                                        <span className="material-symbols-outlined text-slate-400 group-open:rotate-180 transition-transform">expand_more</span>
+                                    </summary>
+                                    <div className="px-6 pb-6 text-slate-500 dark:text-slate-400">
+                                        {faq.a}
+                                    </div>
+                                </details>
+                            </ScrollReveal>
                         ))}
                     </div>
                 </div>
@@ -370,25 +397,29 @@ export default function ServiceDetail() {
             {/* Related Projects */}
             {relatedProjects.length > 0 && (
                 <section className="px-5 lg:px-8 max-w-7xl mx-auto w-full">
-                    <div className="text-center mb-12">
-                        <span className="text-teal-accent font-bold tracking-widest uppercase text-xs">Case Studies</span>
-                        <h2 className="text-3xl lg:text-4xl font-extrabold text-navy mt-2">Related Projects</h2>
-                    </div>
+                    <ScrollReveal>
+                        <div className="text-center mb-12">
+                            <span className="text-teal-accent font-bold tracking-widest uppercase text-xs">Case Studies</span>
+                            <h2 className="text-3xl lg:text-4xl font-extrabold text-navy dark:text-white mt-2">Related Projects</h2>
+                        </div>
+                    </ScrollReveal>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                        {relatedProjects.map((project) => (
-                            <div key={project.id} className="group relative rounded-2xl overflow-hidden shadow-lg">
-                                <div className="aspect-[16/10] overflow-hidden">
-                                    <img loading="lazy" src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-                                </div>
-                                <div className="absolute inset-0 bg-gradient-to-t from-navy/90 to-transparent flex items-end p-6">
-                                    <div>
-                                        <p className="text-teal-accent text-xs font-bold uppercase">{project.category}</p>
-                                        <h3 className="text-white font-bold text-lg">{project.title}</h3>
-                                        <p className="text-white/70 text-sm">{project.stat}</p>
+                        {relatedProjects.map((project, i) => (
+                            <ScrollReveal key={project.id} delay={i * 0.1}>
+                                <div className="group relative rounded-2xl overflow-hidden shadow-lg border border-gray-100 dark:border-white/5">
+                                    <div className="aspect-[16/10] overflow-hidden">
+                                        <img loading="lazy" src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                                    </div>
+                                    <div className="absolute inset-0 bg-gradient-to-t from-navy/90 to-transparent flex items-end p-6">
+                                        <div>
+                                            <p className="text-teal-accent text-xs font-bold uppercase">{project.category}</p>
+                                            <h3 className="text-white font-bold text-lg">{project.title}</h3>
+                                            <p className="text-white/70 text-sm">{project.stat}</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </ScrollReveal>
                         ))}
                     </div>
                 </section>
@@ -396,25 +427,27 @@ export default function ServiceDetail() {
 
             {/* CTA */}
             <section className="px-5 lg:px-8 max-w-7xl mx-auto w-full pb-10">
-                <div className="bg-gradient-to-r from-navy to-navy-dark rounded-3xl p-8 lg:p-12 text-center relative overflow-hidden">
-                    <div className="absolute top-0 left-0 w-64 h-64 bg-teal-accent/10 rounded-full blur-[100px] pointer-events-none"></div>
-                    <div className="relative z-10">
-                        <h2 className="text-3xl lg:text-4xl font-extrabold text-white mb-4">Ready to Get Started?</h2>
-                        <p className="text-white/70 text-lg mb-8 max-w-2xl mx-auto">
-                            Let's discuss how our {service.title.toLowerCase()} services can help your business grow.
-                        </p>
-                        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                            <Link to="/contact" className="w-full sm:w-auto bg-teal-accent hover:bg-teal-accent/90 text-navy px-8 py-4 rounded-xl font-bold transition-all flex items-center justify-center gap-2">
-                                Start Your Project
-                                <span className="material-symbols-outlined">arrow_forward</span>
-                            </Link>
-                            <a href="https://wa.me/923332622962" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-white/10 border border-white/20 hover:bg-white/20 text-white px-8 py-4 rounded-xl font-bold transition-all flex items-center justify-center gap-2">
-                                <span className="material-symbols-outlined">chat</span>
-                                WhatsApp Us
-                            </a>
+                <ScrollReveal>
+                    <div className="bg-gradient-to-r from-navy to-navy-dark dark:from-slate-800 dark:to-slate-900 rounded-3xl p-8 lg:p-12 text-center relative overflow-hidden border border-white/5">
+                        <div className="absolute top-0 left-0 w-64 h-64 bg-teal-accent/10 rounded-full blur-[100px] pointer-events-none"></div>
+                        <div className="relative z-10">
+                            <h2 className="text-3xl lg:text-4xl font-extrabold text-white mb-4">Ready to Get Started?</h2>
+                            <p className="text-white/70 text-lg mb-8 max-w-2xl mx-auto">
+                                Let's discuss how our {service.title.toLowerCase()} services can help your business grow.
+                            </p>
+                            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                                <Link to="/contact" className="w-full sm:w-auto bg-teal-accent hover:bg-teal-accent/90 text-navy px-8 py-4 rounded-xl font-bold transition-all flex items-center justify-center gap-2">
+                                    Start Your Project
+                                    <span className="material-symbols-outlined">arrow_forward</span>
+                                </Link>
+                                <a href="https://wa.me/923332622962" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-white/10 border border-white/20 hover:bg-white/20 text-white px-8 py-4 rounded-xl font-bold transition-all flex items-center justify-center gap-2">
+                                    <span className="material-symbols-outlined">chat</span>
+                                    WhatsApp Us
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </ScrollReveal>
             </section>
         </div>
     );
