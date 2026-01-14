@@ -7,7 +7,7 @@ export const PROJECTS = [
         category: "Retail SEO",
         description: "Achieved #1 ranking on Google for 'Luxury Furniture Hyderabad' in 3 months. Increased organic footfall by 45%.",
         stat: "+150% Leads",
-        image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea1?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80&w=800", // Fixed: Luxury Furniture
         tags: ["Local SEO", "Retail"],
     },
     {
@@ -16,7 +16,7 @@ export const PROJECTS = [
         category: "Social Media",
         description: "Viral Instagram campaign reaching 2M+ accounts across Sindh. Integrated AR filters for virtual try-ons.",
         stat: "2M+ Reach",
-        image: "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1512413914633-b5043f4041ea?auto=format&fit=crop&q=80&w=800", // Fixed: Fashion Runway (Gold/Traditional vibe)
         tags: ["Social Media", "Branding"],
     },
     {
@@ -25,7 +25,7 @@ export const PROJECTS = [
         category: "Web Development",
         description: "Complete frontend overhaul for a leading fintech startup in Hyderabad. Improved load times by 60%.",
         stat: "60% Faster",
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800", // Dashboard/Tech
         tags: ["Web Dev", "UI/UX"],
     },
     {
@@ -34,7 +34,7 @@ export const PROJECTS = [
         category: "App Growth",
         description: "Full-funnel marketing strategy for a sustainable food delivery app. 10k downloads in first week.",
         stat: "10k Downloads",
-        image: "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=800", // Food/App vibe
         tags: ["Marketing", "App Store"],
     },
     {
@@ -43,7 +43,7 @@ export const PROJECTS = [
         category: "Web Development",
         description: "Secure patient management system for a private clinic network. HIPPA compliant and fully responsive.",
         stat: "Secure",
-        image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800", // Medical/Doctor
         tags: ["Web Dev", "Healthcare"],
     },
     {
@@ -52,7 +52,7 @@ export const PROJECTS = [
         category: "Lead Gen",
         description: "Automated lead generation pipeline for real estate agents. Integrated CRM and email markers.",
         stat: "3x Conversion",
-        image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800", // Real Estate
         tags: ["Automation", "Real Estate"],
     }
 ];
@@ -80,7 +80,7 @@ export const SERVICES = [
         description: "Engage your audience and build a loyal community. We handle your presence so you can focus on your business.",
         icon: "hub",
         features: ["Content Strategy & Creation", "Community Engagement", "Ad Campaign Management"],
-        image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=800"
+        image: "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&q=80&w=800" // Fixed: Social Media Collage
     },
     {
         id: 4,
@@ -114,54 +114,54 @@ export const TESTIMONIALS = [
         name: "Ahmed Raza",
         role: "CEO, InteriorsPK",
         content: "Geezek transformed our online presence. Our sales doubled in just three months thanks to their SEO wizardry.",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200"
+        image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200" // South Asian Male
     },
     {
         id: 2,
         name: "Sarah Khan",
         role: "Founder, StyleStudio",
         content: "The branding they created for us is absolutely stunning. It perfectly captures our ethos. Highly recommended!",
-        image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200"
+        image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200" // South Asian Female
     },
     {
         id: 3,
         name: "Bilal Sheikh",
         role: "CTO, FinFlow",
         content: "Technical expertise at its finest. They built a complex dashboard for us that runs smoother than we imagined.",
-        image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200"
+        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200" // South Asian Male (Beaten path)
     }
 ];
 
 export const TEAM_MEMBERS = [
     {
         id: 1,
-        image: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&q=80&w=400",
+        image: "https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?auto=format&fit=crop&q=80&w=400", // South Asian Male
         name: "Jibran Khan",
         role: "Lead Developer"
     },
     {
         id: 2,
-        image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400",
+        image: "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?auto=format&fit=crop&q=80&w=400", // South Asian Female
         name: "Ayesha Malik",
         role: "Creative Director"
     },
     {
         id: 3,
-        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400",
+        image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400", // South Asian Male
         name: "Zain Ahmed",
         role: "SEO Specialist"
     },
     {
         id: 4,
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=400",
+        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=400", // South Asian Female
         name: "Fatima Ali",
         role: "UI/UX Designer"
     }
 ];
 
 export const INDUSTRIES = [
-    { name: "Healthcare & Medical", image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400" },
-    { name: "Real Estate & Construction", image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=400" },
-    { name: "E-Commerce & Retail", image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=400" },
-    { name: "Fintech & Banking", image: "https://images.unsplash.com/photo-1565514020176-dbf2277e4973?auto=format&fit=crop&q=80&w=400" }
+    { name: "Healthcare & Medical", image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=400" }, // Medical
+    { name: "Real Estate & Construction", image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=400" }, // Building
+    { name: "E-Commerce & Retail", image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=400" }, // Store
+    { name: "Fintech & Banking", image: "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&q=80&w=400" } // Fixed: Banking/Finance
 ];

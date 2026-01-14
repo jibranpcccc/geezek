@@ -77,7 +77,7 @@ const SERVICE_DETAILS = {
         tagline: 'Build Your Digital Community',
         description: 'Transform your social presence into a powerful brand-building machine. We create engaging content, grow your following, and turn followers into customers through strategic social media management.',
         icon: 'hub',
-        heroImage: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=1200',
+        heroImage: 'https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&q=80&w=1200',
         features: [
             { title: 'Content Strategy', desc: 'Data-driven content calendars with themes, formats, and posting schedules optimized for your audience.', icon: 'calendar_month' },
             { title: 'Content Creation', desc: 'Professional graphics, videos, reels, and stories that capture attention and drive engagement.', icon: 'draw' },
