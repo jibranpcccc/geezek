@@ -7,7 +7,7 @@ export const PROJECTS = [
         category: "Retail SEO",
         description: "Achieved #1 ranking on Google for 'Luxury Furniture Hyderabad' in 3 months. Increased organic footfall by 45%.",
         stat: "+150% Leads",
-        image: "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea1?auto=format&fit=crop&q=80&w=800",
         tags: ["Local SEO", "Retail"],
     },
     {
@@ -16,7 +16,7 @@ export const PROJECTS = [
         category: "Social Media",
         description: "Viral Instagram campaign reaching 2M+ accounts across Sindh. Integrated AR filters for virtual try-ons.",
         stat: "2M+ Reach",
-        image: "https://images.unsplash.com/photo-WNuYDylj104?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&q=80&w=800",
         tags: ["Social Media", "Branding"],
     },
     {
@@ -25,7 +25,7 @@ export const PROJECTS = [
         category: "Web Development",
         description: "Complete frontend overhaul for a leading fintech startup in Hyderabad. Improved load times by 60%.",
         stat: "60% Faster",
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
         tags: ["Web Dev", "UI/UX"],
     },
     {
@@ -34,7 +34,7 @@ export const PROJECTS = [
         category: "App Growth",
         description: "Full-funnel marketing strategy for a sustainable food delivery app. 10k downloads in first week.",
         stat: "10k Downloads",
-        image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?auto=format&fit=crop&q=80&w=800",
         tags: ["Marketing", "App Store"],
     },
     {
@@ -43,7 +43,7 @@ export const PROJECTS = [
         category: "Web Development",
         description: "Secure patient management system for a private clinic network. HIPPA compliant and fully responsive.",
         stat: "Secure",
-        image: "https://images.unsplash.com/photo-NM1K5l6t5A8?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800",
         tags: ["Web Dev", "Healthcare"],
     },
     {
@@ -64,7 +64,7 @@ export const SERVICES = [
         description: "Dominate search results with data-driven strategies designed to increase visibility and drive organic traffic.",
         icon: "search_insights",
         features: ["Advanced Keyword Research", "High-Quality Backlinking", "Technical On-page Optimization"],
-        image: "https://images.unsplash.com/photo-1571786256017-aee7a0c009b6?auto=format&fit=crop&q=80&w=800"
+        image: "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&q=80&w=800"
     },
     {
         id: 2,
@@ -72,7 +72,7 @@ export const SERVICES = [
         description: "Custom-built websites and web applications that perform as beautifully as they look. Scalable, secure, and fast.",
         icon: "terminal",
         features: ["Custom UI/UX Design", "Full-Stack Solutions (MERN)", "Responsive Mobile Layouts"],
-        image: "https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&q=80&w=800"
+        image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800"
     },
     {
         id: 3,
@@ -88,7 +88,7 @@ export const SERVICES = [
         description: "Crafting memorable brands that resonate with your target audience. Logos, guidelines, and visual systems.",
         icon: "palette",
         features: ["Logo Design", "Brand Guidelines", "Visual Strategy"],
-        image: "https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&q=80&w=800"
+        image: "https://images.unsplash.com/photo-1626785774573-4b799314346d?auto=format&fit=crop&q=80&w=800"
     },
     {
         id: 5,
@@ -96,7 +96,7 @@ export const SERVICES = [
         description: "Storytelling that converts. We create compelling content that educates, entertains, and sells.",
         icon: "edit_note",
         features: ["Blog Writing", "Video Scripts", "Email Newsletters"],
-        image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800"
+        image: "https://images.unsplash.com/photo-1542435503-956c469947f6?auto=format&fit=crop&q=80&w=800"
     },
     {
         id: 6,
@@ -114,54 +114,54 @@ export const TESTIMONIALS = [
         name: "Ahmed Raza",
         role: "CEO, InteriorsPK",
         content: "Geezek transformed our online presence. Our sales doubled in just three months thanks to their SEO wizardry.",
-        image: "https://images.unsplash.com/photo-O3y84M_uKQM?auto=format&fit=crop&q=80&w=200"
+        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200"
     },
     {
         id: 2,
         name: "Sarah Khan",
         role: "Founder, StyleStudio",
         content: "The branding they created for us is absolutely stunning. It perfectly captures our ethos. Highly recommended!",
-        image: "https://images.unsplash.com/photo-GW08HUlwF0o?auto=format&fit=crop&q=80&w=200"
+        image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200"
     },
     {
         id: 3,
         name: "Bilal Sheikh",
         role: "CTO, FinFlow",
         content: "Technical expertise at its finest. They built a complex dashboard for us that runs smoother than we imagined.",
-        image: "https://images.unsplash.com/photo-wDxfnB1Y2xo?auto=format&fit=crop&q=80&w=200"
+        image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200"
     }
 ];
 
 export const TEAM_MEMBERS = [
     {
         id: 1,
-        image: "https://images.unsplash.com/photo-L_MIDL5tVso?auto=format&fit=crop&q=80&w=400",
+        image: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&q=80&w=400",
         name: "Jibran Khan",
         role: "Lead Developer"
     },
     {
         id: 2,
-        image: "https://images.unsplash.com/photo-mA8tRLbBeDk?auto=format&fit=crop&q=80&w=400",
+        image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400",
         name: "Ayesha Malik",
         role: "Creative Director"
     },
     {
         id: 3,
-        image: "https://images.unsplash.com/photo-B8UOh_r_ODw?auto=format&fit=crop&q=80&w=400",
+        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400",
         name: "Zain Ahmed",
         role: "SEO Specialist"
     },
     {
         id: 4,
-        image: "https://images.unsplash.com/photo-9_SGJm3t8Mo?auto=format&fit=crop&q=80&w=400",
+        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=400",
         name: "Fatima Ali",
         role: "UI/UX Designer"
     }
 ];
 
 export const INDUSTRIES = [
-    { name: "Healthcare & Medical", image: "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&q=80&w=400" },
+    { name: "Healthcare & Medical", image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400" },
     { name: "Real Estate & Construction", image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=400" },
-    { name: "E-Commerce & Retail", image: "https://images.unsplash.com/photo-1472851294608-4152c5618487?auto=format&fit=crop&q=80&w=400" },
+    { name: "E-Commerce & Retail", image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=400" },
     { name: "Fintech & Banking", image: "https://images.unsplash.com/photo-1565514020176-dbf2277e4973?auto=format&fit=crop&q=80&w=400" }
 ];

@@ -78,7 +78,7 @@ export default function About() {
                         <div className="relative">
                             <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl border border-gray-100 dark:border-white/5">
                                 <img
-                                    src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&auto=format&fit=crop"
+                                    src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800"
                                     alt="Geezek Team"
                                     className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                                 />

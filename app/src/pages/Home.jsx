@@ -59,7 +59,7 @@ export default function Home() {
                     <FadeIn delay={0.5} className="mt-10 lg:mt-0">
                         <div className="rounded-2xl overflow-hidden relative h-52 lg:h-[400px] w-full bg-slate-50 dark:bg-slate-800 border border-gray-100 dark:border-white/5 shadow-soft lg:shadow-2xl">
                             <div className="absolute inset-0 bg-cover bg-center opacity-80 mix-blend-multiply dark:mix-blend-normal transition-transform duration-1000 hover:scale-105"
-                                style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&auto=format&fit=crop")', filter: 'grayscale(100%) brightness(1.2)' }}>
+                                style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200")', filter: 'grayscale(100%) brightness(1.2)' }}>
                             </div>
                             <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/40 to-transparent mix-blend-multiply dark:mix-blend-overlay"></div>
                             <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
@@ -254,7 +254,7 @@ export default function Home() {
                 <ScrollReveal>
                     <div className="relative overflow-hidden rounded-2xl bg-navy dark:bg-slate-800 text-white p-7 lg:p-12 shadow-xl border border-white/5">
                         <div className="absolute inset-0 z-0 opacity-10 bg-no-repeat bg-right-bottom bg-contain pointer-events-none mix-blend-overlay"
-                            style={{ backgroundImage: "url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&auto=format&fit=crop')", filter: 'invert(1)' }}>
+                            style={{ backgroundImage: "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600')", filter: 'invert(1)' }}>
                         </div>
                         <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
                             <div>

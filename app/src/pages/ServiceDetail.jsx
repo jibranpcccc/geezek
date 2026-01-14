@@ -11,7 +11,7 @@ const SERVICE_DETAILS = {
         tagline: 'Dominate Search Rankings',
         description: 'Our data-driven SEO strategies are designed to increase your organic visibility, drive qualified traffic, and maximize ROI. We combine technical expertise with creative content strategies to help you outrank your competitors.',
         icon: 'search_insights',
-        heroImage: 'https://images.unsplash.com/photo-1571786256017-aee7a0c009b6?auto=format&fit=crop&q=80&w=1200',
+        heroImage: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200',
         features: [
             { title: 'Keyword Research & Strategy', desc: 'In-depth analysis of high-value keywords with search intent mapping to target users at every stage of the buyer journey.', icon: 'key' },
             { title: 'On-Page Optimization', desc: 'Technical optimizations including meta tags, header structure, internal linking, and content optimization for maximum relevance.', icon: 'tune' },
@@ -44,7 +44,7 @@ const SERVICE_DETAILS = {
         tagline: 'Modern Digital Experiences',
         description: 'We build custom websites and web applications that combine stunning design with powerful functionality. From simple landing pages to complex enterprise solutions, we deliver code that performs.',
         icon: 'terminal',
-        heroImage: 'https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&q=80&w=1200',
+        heroImage: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1200',
         features: [
             { title: 'Custom Web Applications', desc: 'Full-stack development using React, Next.js, Node.js, and modern frameworks tailored to your exact needs.', icon: 'code' },
             { title: 'Responsive Design', desc: 'Mobile-first designs that look perfect on every device, from smartphones to 4K displays.', icon: 'devices' },
@@ -110,7 +110,7 @@ const SERVICE_DETAILS = {
         tagline: 'Memorable Brands That Resonate',
         description: 'Your brand is more than a logo—it\'s the entire experience customers have with your business. We craft cohesive visual identities that communicate your values, attract your ideal customers, and stand the test of time.',
         icon: 'palette',
-        heroImage: 'https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&q=80&w=1200',
+        heroImage: 'https://images.unsplash.com/photo-1626785774573-4b799314346d?auto=format&fit=crop&q=80&w=1200',
         features: [
             { title: 'Logo Design', desc: 'Custom logo concepts with multiple variations for different use cases and applications.', icon: 'format_shapes' },
             { title: 'Color Palette', desc: 'Strategic color systems that evoke the right emotions and ensure brand consistency.', icon: 'palette' },
@@ -143,7 +143,7 @@ const SERVICE_DETAILS = {
         tagline: 'Stories That Sell',
         description: 'Content is the fuel that powers modern marketing. We create compelling blogs, videos, and marketing materials that educate your audience, build trust, and drive conversions at every stage of the funnel.',
         icon: 'edit_note',
-        heroImage: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1200',
+        heroImage: 'https://images.unsplash.com/photo-1542435503-956c469947f6?auto=format&fit=crop&q=80&w=1200',
         features: [
             { title: 'Blog Writing', desc: 'SEO-optimized articles that establish thought leadership and drive organic traffic.', icon: 'article' },
             { title: 'Video Production', desc: 'Explainer videos, testimonials, and social content that engages and converts.', icon: 'videocam' },
