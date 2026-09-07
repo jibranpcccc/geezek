@@ -3,7 +3,7 @@ import ScrollReveal, { FadeIn } from '../components/ScrollReveal';
 
 export default function Contact() {
     const contactInfo = [
-        { icon: 'person', label: 'Full Name', value: 'Madiha Jibran', href: null },
+        { icon: 'person', label: 'Business Owner', value: 'Madiha Jibran', href: null },
         { icon: 'location_on', label: 'Business Address', value: 'F-9, S.I.T.E Area, Hyderabad, Sindh 71000, Pakistan', href: 'https://maps.google.com' },
         { icon: 'mail', label: 'Email Address', value: 'geezek@Outlook.com', href: 'mailto:geezek@Outlook.com' },
         { icon: 'call', label: 'Phone Number', value: '+92 333 2622962', href: 'tel:+923332622962' },
@@ -69,13 +69,14 @@ export default function Contact() {
                                     </p>
                                 </div>
                                 <div className="mt-4 pt-4 border-t border-gray-200 dark:border-white/5 text-xs text-slate-500 space-y-1">
+                                    <p><strong className="text-slate-700 dark:text-slate-300">Owner:</strong> Madiha Jibran</p>
                                     <p><strong className="text-slate-700 dark:text-slate-300">Registration:</strong> Hyderabad, Sindh, Pakistan</p>
                                     <p><strong className="text-slate-700 dark:text-slate-300">Online Store:</strong> www.geezek.com</p>
                                 </div>
                             </div>
                             <div className="flex flex-col justify-center gap-5">
                                 <div className="pb-3 border-b border-gray-100 dark:border-white/5">
-                                    <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Full Name</span>
+                                    <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Business Owner / Representative</span>
                                     <p className="text-lg font-bold text-navy dark:text-white">Madiha Jibran</p>
                                 </div>
                                 <div className="pb-3 border-b border-gray-100 dark:border-white/5">

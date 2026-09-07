@@ -137,7 +137,7 @@ export const TEAM_MEMBERS = [
         id: 1,
         image: "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?auto=format&fit=crop&q=80&w=400",
         name: "Madiha Jibran",
-        role: "Founder & Managing Director"
+        role: "Owner & Managing Director"
     },
     {
         id: 2,
