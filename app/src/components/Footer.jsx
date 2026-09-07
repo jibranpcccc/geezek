@@ -64,15 +64,15 @@ export default function Footer() {
                             <ul className="space-y-4">
                                 <li className="flex items-start gap-3 justify-center md:justify-start">
                                     <span className="material-symbols-outlined text-teal-accent mt-0.5">location_on</span>
-                                    <span className="text-slate-400 text-sm">Site Area,<br />Hyderabad, Sindh</span>
+                                    <span className="text-slate-400 text-sm">F-9, S.I.T.E Area,<br />Hyderabad, Sindh 71000</span>
                                 </li>
                                 <li className="flex items-center gap-3 justify-center md:justify-start">
                                     <span className="material-symbols-outlined text-teal-accent">mail</span>
-                                    <a href="mailto:hello@geezek.com" className="text-slate-400 hover:text-white transition-colors text-sm">hello@geezek.com</a>
+                                    <a href="mailto:geezek@Outlook.com" className="text-slate-400 hover:text-white transition-colors text-sm">geezek@Outlook.com</a>
                                 </li>
                                 <li className="flex items-center gap-3 justify-center md:justify-start">
                                     <span className="material-symbols-outlined text-teal-accent">call</span>
-                                    <a href="tel:+923332622962" className="text-slate-400 hover:text-white transition-colors text-sm">0333 2622962</a>
+                                    <a href="tel:+923332622962" className="text-slate-400 hover:text-white transition-colors text-sm">+92 333 2622962</a>
                                 </li>
                             </ul>
                         </div>

@@ -3,9 +3,10 @@ import ScrollReveal, { FadeIn } from '../components/ScrollReveal';
 
 export default function Contact() {
     const contactInfo = [
-        { icon: 'location_on', label: 'Address', value: 'Site Area, Hyderabad, Sindh', href: 'https://maps.google.com' },
-        { icon: 'mail', label: 'Email', value: 'hello@geezek.com', href: 'mailto:hello@geezek.com' },
-        { icon: 'call', label: 'Phone', value: '0333 2622962', href: 'tel:+923332622962' },
+        { icon: 'person', label: 'Full Name', value: 'Madiha Jibran', href: null },
+        { icon: 'location_on', label: 'Business Address', value: 'F-9, S.I.T.E Area, Hyderabad, Sindh 71000, Pakistan', href: 'https://maps.google.com' },
+        { icon: 'mail', label: 'Email Address', value: 'geezek@Outlook.com', href: 'mailto:geezek@Outlook.com' },
+        { icon: 'call', label: 'Phone Number', value: '+92 333 2622962', href: 'tel:+923332622962' },
         { icon: 'schedule', label: 'Hours', value: 'Mon - Fri: 9AM - 6PM PKT', href: null },
     ];
 
@@ -48,6 +49,55 @@ export default function Contact() {
                         </p>
                     </FadeIn>
                 </div>
+            </section>
+
+            {/* Official Business & Contact Information Section */}
+            <section className="px-5 lg:px-8 max-w-7xl mx-auto w-full">
+                <FadeIn delay={0.35}>
+                    <div className="bg-white dark:bg-slate-800 rounded-3xl border border-gray-200 dark:border-white/10 shadow-soft p-8 lg:p-10 mb-8">
+                        <div className="border-b border-gray-100 dark:border-white/10 pb-4 mb-6">
+                            <h2 className="text-2xl lg:text-3xl font-extrabold text-navy dark:text-white">Business and Contact Information</h2>
+                            <p className="text-slate-500 dark:text-slate-400 text-sm mt-1">Official corporate details, store registration, and merchant support contact for Geezek.</p>
+                        </div>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div className="bg-slate-50 dark:bg-slate-900/50 p-6 rounded-2xl border border-gray-100 dark:border-white/5 flex flex-col justify-between">
+                                <div>
+                                    <span className="inline-block px-3 py-1 rounded-full bg-teal-soft dark:bg-teal-accent/10 text-teal-accent text-xs font-bold uppercase tracking-wider mb-3">Store / Company</span>
+                                    <h3 className="text-2xl font-black text-navy dark:text-white mb-2">Geezek</h3>
+                                    <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                                        Software House &amp; Digital Creative Agency specializing in custom brand identities, vector logo designs, and bespoke software solutions.
+                                    </p>
+                                </div>
+                                <div className="mt-4 pt-4 border-t border-gray-200 dark:border-white/5 text-xs text-slate-500 space-y-1">
+                                    <p><strong className="text-slate-700 dark:text-slate-300">Registration:</strong> Hyderabad, Sindh, Pakistan</p>
+                                    <p><strong className="text-slate-700 dark:text-slate-300">Online Store:</strong> www.geezek.com</p>
+                                </div>
+                            </div>
+                            <div className="flex flex-col justify-center gap-5">
+                                <div className="pb-3 border-b border-gray-100 dark:border-white/5">
+                                    <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Full Name</span>
+                                    <p className="text-lg font-bold text-navy dark:text-white">Madiha Jibran</p>
+                                </div>
+                                <div className="pb-3 border-b border-gray-100 dark:border-white/5">
+                                    <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Business Address</span>
+                                    <p className="text-base font-semibold text-slate-700 dark:text-slate-300">F-9, S.I.T.E Area, Hyderabad, Sindh 71000, Pakistan</p>
+                                </div>
+                                <div className="pb-3 border-b border-gray-100 dark:border-white/5">
+                                    <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Email Address</span>
+                                    <p className="text-base font-bold text-teal-accent">
+                                        <a href="mailto:geezek@Outlook.com" className="hover:underline">geezek@Outlook.com</a>
+                                    </p>
+                                </div>
+                                <div>
+                                    <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Phone Number</span>
+                                    <p className="text-base font-bold text-navy dark:text-white">
+                                        <a href="tel:+923332622962" className="hover:underline">+92 333 2622962</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </FadeIn>
             </section>
 
             {/* Main Content */}

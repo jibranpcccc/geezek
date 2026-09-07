@@ -135,24 +135,30 @@ export const TESTIMONIALS = [
 export const TEAM_MEMBERS = [
     {
         id: 1,
-        image: "https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?auto=format&fit=crop&q=80&w=400", // South Asian Male
-        name: "Jibran Khan",
-        role: "Lead Developer"
+        image: "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?auto=format&fit=crop&q=80&w=400",
+        name: "Madiha Jibran",
+        role: "Founder & Managing Director"
     },
     {
         id: 2,
+        image: "https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?auto=format&fit=crop&q=80&w=400",
+        name: "Jibran Khan",
+        role: "Lead Developer & Tech Lead"
+    },
+    {
+        id: 3,
         image: "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?auto=format&fit=crop&q=80&w=400", // South Asian Female
         name: "Ayesha Malik",
         role: "Creative Director"
     },
     {
-        id: 3,
+        id: 4,
         image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400", // South Asian Male
         name: "Zain Ahmed",
         role: "SEO Specialist"
     },
     {
-        id: 4,
+        id: 5,
         image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=400", // South Asian Female
         name: "Fatima Ali",
         role: "UI/UX Designer"

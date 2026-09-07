@@ -19,6 +19,8 @@ function App() {
           <Route path="services/:slug" element={<ServiceDetail />} />
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="contactus" element={<Contact />} />
+          <Route path="contact-us" element={<Contact />} />
           <Route path="about" element={<About />} />
         </Route>
       </Routes>
